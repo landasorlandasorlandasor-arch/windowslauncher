@@ -7,7 +7,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "rocks.gorjan.gokixp"
+        applicationId = "com.landasor.windowslauncher"
         minSdk = 29
         targetSdk = 36
         versionCode = 26
