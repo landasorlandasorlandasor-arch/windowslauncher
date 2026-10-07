@@ -99,7 +99,7 @@ class WP8MigrationProvider : ContentProvider() {
     companion object {
         private const val TAG = "WP8MigrationProvider"
 
-        const val AUTHORITY = "rocks.gorjan.gokixp.migration"
+        const val AUTHORITY ="com.landasor.windowslauncher.migration"
 
         /** Columns [query] returns: a path relative to the snapshot root, and a size. */
         const val COLUMN_PATH = "path"
