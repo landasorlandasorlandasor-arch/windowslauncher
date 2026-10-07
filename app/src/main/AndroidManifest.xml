@@ -11,7 +11,7 @@
         apps to another, on the same phone.
     -->
     <permission
-        android:name="rocks.gorjan.gokixp.permission.READ_WP8_MIGRATION"
+        android:name="com.landasor.windowslauncher.permission.READ_WP8_MIGRATION"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
@@ -136,10 +136,10 @@
         -->
         <provider
             android:name=".WP8MigrationProvider"
-            android:authorities="rocks.gorjan.gokixp.migration"
+            android:authorities=com.landasor.windowslauncher.migration
             android:exported="true"
             android:grantUriPermissions="false"
-            android:permission="rocks.gorjan.gokixp.permission.READ_WP8_MIGRATION" />
+            android:permission="com.landasor.windowslauncher.permission.READ_WP8_MIGRATION" />
 
         <!-- FileProvider for My Computer file sharing -->
         <provider
