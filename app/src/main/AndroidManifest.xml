@@ -136,7 +136,7 @@
         -->
         <provider
             android:name=".WP8MigrationProvider"
-            android:authorities=com.landasor.windowslauncher.migration
+            android:authorities="com.landasor.windowslauncher.migration"
             android:exported="true"
             android:grantUriPermissions="false"
             android:permission="com.landasor.windowslauncher.permission.READ_WP8_MIGRATION" />
